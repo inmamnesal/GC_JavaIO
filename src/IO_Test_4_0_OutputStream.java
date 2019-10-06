@@ -4,10 +4,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-public class IO_Test_4_OutputStream {
+public class IO_Test_4_0_OutputStream {
     public static void main(String[] args) throws IOException {
         String fileName1 = "1.jpg";
         String fileName2 = "2.jpg";
+
 
         FileInputStream in = null;
         FileOutputStream out = null;
