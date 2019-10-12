@@ -1,3 +1,5 @@
+package _0_stream;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;

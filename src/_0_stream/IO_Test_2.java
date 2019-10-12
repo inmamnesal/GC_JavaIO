@@ -1,10 +1,12 @@
+package _0_stream;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrays;
 
 public class IO_Test_2 {
-    //демонстрация второго метода read InputStream
+    //демонстрация второго метода read _0_stream
     public static void main(String[] args) throws IOException {
         String fileName = "text.txt";
         InputStream inFile = null;

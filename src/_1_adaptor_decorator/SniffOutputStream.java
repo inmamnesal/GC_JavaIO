@@ -1,4 +1,4 @@
-package adaptor_decorator;
+package _1_adaptor_decorator;
 
 import java.io.IOException;
 import java.io.OutputStream;

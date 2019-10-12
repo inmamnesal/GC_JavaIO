@@ -1,1 +1,1 @@
-InputStream method read
+_0_stream method read

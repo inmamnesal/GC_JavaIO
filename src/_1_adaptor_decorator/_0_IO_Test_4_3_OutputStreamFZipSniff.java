@@ -1,9 +1,9 @@
-package adaptor_decorator;
+package _1_adaptor_decorator;
 
 import java.io.*;
 import java.util.zip.GZIPOutputStream;
 
-public class IO_Test_4_4_OutputStreamFZipSniff {
+public class _0_IO_Test_4_3_OutputStreamFZipSniff {
     public static void main(String[] args) throws IOException {
         String fileName1 = "xakep.pdf";
         String fileName2 = "xakep.xxx";
@@ -15,13 +15,12 @@ public class IO_Test_4_4_OutputStreamFZipSniff {
             in =
 //                    new SniffInputStream(
                             new BufferedInputStream(
-//                                    new SniffInputStream(
-                                            new FileInputStream(fileName1))/*))*/;
-            out = /*new SniffOutputStream(*/
+                                    new SniffInputStream(
+                                            new FileInputStream(fileName1)))/*)*/;
+            out =
                     new GZIPOutputStream(
-                            new SniffOutputStream(
                             new BufferedOutputStream(
-                                    new FileOutputStream(fileName2)))/*)*/);
+                                    new FileOutputStream(fileName2)));
 
             long timeBegin = System.currentTimeMillis();
             copy(in, out);
@@ -78,7 +77,7 @@ public class IO_Test_4_4_OutputStreamFZipSniff {
 
 //class C{
 //    public static void main(String[] args) throws IOException {
-//        InputStream is = new URL("http://www.avito.ru").openStream();
+//        _0_stream is = new URL("http://www.avito.ru").openStream();
 //        long timeBegin = System.currentTimeMillis();
 //        while(is.read() != -1){
 //            long timeEnd = System.currentTimeMillis();

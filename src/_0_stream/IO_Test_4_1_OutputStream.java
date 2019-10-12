@@ -1,3 +1,5 @@
+package _0_stream;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -66,7 +68,7 @@ public class IO_Test_4_1_OutputStream {
 
 //class C{
 //    public static void main(String[] args) throws IOException {
-//        InputStream is = new URL("http://www.avito.ru").openStream();
+//        _0_stream is = new URL("http://www.avito.ru").openStream();
 //        long timeBegin = System.currentTimeMillis();
 //        while(is.read() != -1){
 //            long timeEnd = System.currentTimeMillis();
